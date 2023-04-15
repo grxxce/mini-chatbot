@@ -1,7 +1,9 @@
 import openai
 import pyaudio
 import wave as wv
-openai.api_key = "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"
+import config # replace with your own config.py file with relevant API keys
+
+openai.api_key = config.api_key
 # import pydub
 print("Hi, I'm mini-siri! Start talking to ask any question, and press '^C' when you are done talking.")
 

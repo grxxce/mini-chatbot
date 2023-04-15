@@ -14,9 +14,11 @@ git clone https://github.com/grxxce/mini-chatbot.git
 ### Install the dependencies
 ```
 npm install openai
-npm install pyaudio
+brew install portaudio
+pip install pyaudio
 npm install wave
 ```
+Note that some of these dependencies may require ```sudo``` permision.
 ### Run the program
 ```
 python3 chatbot.py  
