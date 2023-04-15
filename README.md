@@ -19,11 +19,16 @@ pip install pyaudio
 npm install wave
 ```
 Note that some of these dependencies may require ```sudo``` permision.
+
+### Add your API key
+Head to your [ChatGPT4](https://platform.openai.com/account/api-keys) account to create your API key. Create a ```config.py``` file and set ```api_key``` equal to the key you create.
+
 ### Run the program
 ```
 python3 chatbot.py  
 ```
-You're ready to go! Just follow the instructions in terminal and converse to your heart's desire 😄.
+You're ready to go! Just follow the instructions in terminal and converse with ```Mini-Siri``` to your heart's desire 😄.
+
 
 # Personalizing Mini-Siri
 Modify [line 41](https://github.com/grxxce/mini-chatbot/blob/9cb764b23b9c79eb742e70d66db3d6ccfde73e4d/chatbot.py#L41) of chatbot.py to replace with any personality you desire!
