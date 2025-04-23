@@ -6,7 +6,7 @@ import math
 import time
 import google.cloud.texttospeech as tts
 
-openai.api_key = "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"
+openai.api_key = OPENAI_APIKEY
 
 chatGPT = openai.ChatCompletion.create(
     model="gpt-3.5-turbo",
